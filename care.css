@@ -1,0 +1,132 @@
+*{
+	padding: 0; margin: 0;
+}
+img{
+	border: 0;
+}
+.clearfix{
+    clear: both;
+    content: "";
+    display: table;
+}
+body{
+	font-family: "Open Sans";
+	color:#606060; 
+}
+a{
+	color:#007FFF;
+}
+header{
+	 overflow: hidden; background:#292929;
+}
+.content{
+	border-left: 1px solid #e1e0e0; border-right: 1px solid #e1e0e0;
+}
+.center-block-main{
+	margin: 0 auto; max-width:990px;
+}
+.logo{
+	float: left; padding: 40px 0 0 20px; font-weight: 600; color:#fff; font-size: 1.75em; text-decoration: none;
+}
+.main-top{
+	float: right;
+}
+.main-top li{
+	float: left; font-weight: 600; list-style: none; 
+}
+.main-top li a{
+	color:#fff; text-decoration: none; padding: 50px 35px; display: block; border-bottom: 3px solid #292929;
+}
+.main-top li a:hover{
+	color:#00BFFF; border-bottom: 3px solid #00BFFF;
+}
+main{
+	float:left; width: 62.6%; margin:70px 0 70px 0;
+}
+	main h1{
+		text-align: center;
+	}
+article{
+	margin-top: 35px;
+}
+article h2{
+	margin: 0 0 10px 20px;
+}
+article p{
+	margin: 0 0 5px 20px; font-size: 14px;
+}
+aside{
+	float: right; width: 28.3%; margin-top: 70px;
+}
+.widget{
+	margin-bottom: 70px;
+}
+.widget h2{
+	text-transform: uppercase; color:#6c6969; background: #f8f8f8; border-left: 3px solid #007FFF; padding: 10px 20px; font-weight: 600; margin-bottom: 20px; font-size: 18px;
+}
+::-webkit-input-placeholder{
+	color:#b9b9b9;
+}
+.widget nav{
+	 margin: 0 0 0 20px;
+}
+.widget li{
+	list-style: none; margin-bottom: 5px;
+	}
+	.widget li a{
+		text-decoration: none;
+	}
+	.widget li a:hover{
+		text-decoration: underline;
+	}
+.pager{
+	clear:both; border-top: 1px solid #e1e0e0; font-size: 1.125em; text-transform: uppercase; padding: 30px; overflow: hidden; font-weight: 600;
+}
+.pager a{
+	color:#818181; text-decoration:none;
+}
+.pager a:hover{
+	 text-decoration:underline;
+}
+.previous-link{
+	float:left;
+}
+.next-link{
+	float:right;
+}
+footer{
+	background:#f8f8f8; border-top: 1px solid #e1e0e0; text-align: center; font-size: 0.8125em; padding: 50px 0;
+}
+footer img{
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width:900px){
+	.logo{
+	 float: none; padding-top: 20px;  margin: 10px auto; display: block;  text-align: center;
+}
+	.main-top li a{
+	padding: 25px 35px; 
+}
+	main{
+	float:none; width: 100%; margin-top: 30px;
+}
+	aside{
+	float: none; width: 100%; margin-top: 70px;
+}
+}
+
+@media screen and (max-width:600px){
+	.main-top li a{
+	padding: 10px 35px; 
+}
+	.main-top{
+	float: none; width: 100%;
+}
+figure{
+	float: none; margin-bottom: 20px; text-align: center;
+}
+figcaption{
+	float: none; max-width: 100%; text-align: center;
+}
+}
