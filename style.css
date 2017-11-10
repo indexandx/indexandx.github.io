@@ -109,28 +109,23 @@ footer img{
 .logo{
 	 float: none; padding: 20px 0 0 0;  margin: 10px auto; display: block;  text-align: center;
 }
+	.main-top{
+		width: 100%;
+	}
 	.main-top li a{
-	padding: 25px 35px; 
-}
+	padding: 10px 35px; 
+	}
 	main{
 	float:none; width: 100%; margin-top: 30px;
-}
+	}
 	article header{
 		max-width: 619px; 
 	}
 	article p{
 	margin: 0 20px 20px 20px; 
-}
+	}
 	aside{
 	float: none; width: 100%; margin-top: 70px;
-}
+	}
 }
 
-@media screen and (max-width:600px){
-	.main-top li a{
-	padding: 10px 35px; 
-}
-	.main-top{
-	float: none; width: 100%;
-}
-}

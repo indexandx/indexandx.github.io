@@ -141,31 +141,20 @@ footer img{
 }
 
 @media screen and (max-width:900px){
-	.logo{
-	 float: none; padding-top: 20px;  margin: 10px auto; display: block;  text-align: center;
-}
-	.main-top li a{
-	padding: 25px 35px; 
-}
-	main{
-	float:none; width: 100%; margin-top: 30px;
-}
-	aside{
-	float: none; width: 100%; margin-top: 70px;
-}
-}
-
-@media screen and (max-width:600px){
-	.main-top li a{
-	padding: 10px 35px; 
+.logo{
+	 float: none; padding: 20px 0 0 0;  margin: 10px auto; display: block;  text-align: center;
 }
 	.main-top{
-	float: none; width: 100%;
+		width: 100%;
+	}
+	.main-top li a{
+	padding: 10px 35px; 
+	}
+	main{
+	float:none; width: 100%; margin-top: 30px;
+	}
+	aside{
+	float: none; width: 100%; margin-top: 70px;
+	}
 }
-figure{
-	float: none; margin-bottom: 20px; text-align: center;
-}
-figcaption{
-	float: none; max-width: 100%; text-align: center;
-}
-}
+
